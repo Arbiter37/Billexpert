@@ -1,0 +1,31 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %}
+
+    {% block content %}
+        <br><br><br>
+        <div class="card-group">
+            <div class="card">
+            <img src="..." class="card-img-top" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Step - 1</h5>
+                <p class="card-text"> Upload a pdf of you Invoice.</p>
+                <p class="card-text"><small class="text-muted"><a href="/upload"><button type="button" class="btn btn-secondary">Upload</button></a></small></p>
+            </div>
+            </div>
+            <div class="card">
+            <img src="..." class="card-img-top" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Step - 2</h5>
+                <p class="card-text">Parse Invoice.</p>
+                <p class="card-text"><small class="text-muted"><button type="button" class="btn btn-secondary">Parse</button></small></p>
+            </div>
+            </div>
+            <div class="card">
+            <img src="..." class="card-img-top" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Step - 3</h5>
+                <p class="card-text">See your Parsed Invoice</p>
+                <p class="card-text"><small class="text-muted"><a href="/info"><button type="button" class="btn btn-secondary">Open</button></a></small></p>
+            </div>
+            </div>
+        </div> 
+    {% endblock %}
